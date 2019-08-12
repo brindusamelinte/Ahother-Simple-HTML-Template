@@ -1,0 +1,91 @@
+body {
+    background-color:#489;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    line-height:1.3em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    padding:0;
+    list-style-type: none;
+}
+
+.clr {
+    clear: both;
+}
+
+#container {
+    background-color: #123456;
+    width:70%;
+    margin: 50px auto;
+    overflow:hidden;
+    padding:30px;
+}
+
+#nav {
+    background-color: #489;
+    height:60px;
+}
+
+#nav ul {
+    padding-top:20px;
+    padding-left:10px;
+}
+
+#nav li {
+    float:left;
+    padding-right: 30px;
+}
+
+#nav .active {
+    color:#000;
+    font-weight:bold;
+}
+
+.services li {
+    border-bottom: 2px white dashed;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.services a{
+    background-color: #489;
+    padding:10px;
+}
+
+input , textarea {
+    width:80%;
+    padding:10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding:10px;
+    width:15%;
+    font-weight: bold;
+}
+
+#main {
+    float:left;
+    width:60%;
+}
+
+#sidebar {
+    float:right;
+    width:30%;
+    background-color: #489;
+    margin-top:30px;
+    padding:20px;
+}
+
+#footer {
+    background-color: #489;
+    text-align:center;
+    margin-top:30px;
+    padding:10px;
+}
+
